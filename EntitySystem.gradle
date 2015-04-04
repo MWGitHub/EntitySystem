@@ -1,0 +1,12 @@
+mainClassName = "com.exploringlines.entitysystem.App"
+
+dependencies {
+    testCompile libraries.junit
+}
+
+fatJar {
+    manifest {
+        attributes 'Implementation-Title': 'Entity System',
+                'Main-Class': 'com.exploringlines.entitysystem.App'
+    }
+}
